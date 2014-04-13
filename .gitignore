@@ -1,0 +1,47 @@
+# IDEs, editors and OS
+.idea
+tags
+.buildpath
+.project
+*.komodoproject
+*.swp
+*.swo
+.DS_Store
+dump.rdb
+db/*.sqlite3
+
+# Bundler
+/.bundle
+/bin
+/vendor/bundle
+
+# Logs
+/log/*.log
+
+# Assets and temporary files
+/public/javascripts/all.js
+/public/stylesheets/all.css
+/public/assets/*
+.sass-cache
+/tmp/*
+
+# Testing and CI
+coverage/
+html-report/*/*.png
+
+# Private configuration
+encryption_keys/*
+/config/deployment_keys.yml
+/config/passwords.yml
+/config/database.yml
+/config/settings.local.yml
+/config/settings/*.local.yml
+/config/settings/passwords.*.yml
+/config/environments/*.local.yml
+/config/nginx.conf
+/config/unicorn.rb
+
+# Foreman
+/.env
+/.foreman
+

@@ -1,0 +1,2 @@
+module MeterDataHelper
+end
